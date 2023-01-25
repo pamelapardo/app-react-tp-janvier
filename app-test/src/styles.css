@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Nanum+Myeongjo:wght@400;800&family=Poppins:wght@300;600&display=swap');
+/* ------------------------- Card Page styles-------------------------------- */
+.card-page{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-image: url(./images/fond.jpg);
+  background-size: cover;
+  background-position: center;
+  padding-right: 15%;
+  padding-left: 15%;
+  overflow: hidden;
+}
+.width-100{
+  width: 100%;
+}
+.card-container{
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+/* --------------------------------Card component- all styles---------------------- */
+.card-item-container{
+  backdrop-filter: blur(8px);
+  background-color: rgba(216, 198, 164, 0.438);
+  padding: 15px 33px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: 0.2s;
+  margin: 10px 0px;
+  width: 100%;
+}
+.card-item-container:hover{
+  backdrop-filter: blur(8px);
+  background-color: rgba(227, 211, 183, 0.67);
+  padding: 20px 38px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: -2px 7px 25px -2px #0E0F07;
+  margin: 5px 0px;
+}
+.card-date{
+  display: flex;
+  align-items: center;
+  background-color: rgba(255, 240, 208, 0.597);
+  padding: 8px 10px;
+  border-radius: 8px;
+  width: 17%;
+}
+.month-year-container{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 10px;
+}
+.month{
+  margin-block-start: -0.2em !important;
+  margin-block-end: -0.2em !important;
+  font-family: Poppins;
+  font-weight: 600;
+  color: #534529;
+  font-size: 0.9rem;
+}
+.year{
+  margin-block-start: 0em !important;
+  margin-block-end: -0.2em !important;
+  font-family: Poppins;
+  font-weight: 300;
+  color: #534529;
+  font-size: 0.9rem;
+}
+.day{
+  margin-block-start: -0.3em !important;
+  margin-block-end: -0.3em !important;
+  font-family: Abril Fatface;
+  color: #242712;
+  font-size: 2.5rem;
+}
+.motive-container{
+  display: flex;
+  align-items: flex-start;
+  width: 71%;
+}
+.motive{
+  padding: 0px 20px;
+  color: #242712;
+  font-family: Abril Fatface;
+  letter-spacing: 1px;
+}
+.amount-container{
+  width: 12%;
+  display: flex;
+  justify-content: flex-end;
+}
+.amount{
+  color: rgba(255, 239, 205, 0.874);
+  margin-block-start: -0.3em !important;
+  margin-block-end: -0.3em !important;
+  font-family: Poppins;
+  font-weight: 600;
+  background-color: #1d1e1b;
+  padding: 8px 10px;
+  border-radius: 8px;
+}
+
+
+/* -------------------------------- Formulaire -------------------------- */
