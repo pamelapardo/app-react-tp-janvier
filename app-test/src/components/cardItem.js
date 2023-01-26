@@ -4,14 +4,14 @@ function CardItem(props){
   
   return(
     <div className='card-item-container'>
-      <ExpensesDate date={props.date}/>
+      <ExpensesDate date={props.items.date}/>
 
       <div className='motive-container'>
-        <h3 className='motive'>{props.motive}</h3>
+        <h3 className='motive'>{props.items.motive}</h3>
       </div>
 
       <div className='amount-container'>
-        <p className='amount'>{props.amount}$</p>
+        <p className='amount'>${props.items.amount}</p>
       </div>
     </div>
   )

@@ -1,6 +1,56 @@
 /* -------------------------------- Form ---------------------- */
-.form-container{
-  width: 30%;
+.form{
   display: flex;
-  background-color: rgb(36, 39, 18);
+  flex-direction: column;
+}
+.form-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #e0a9b9a6;
+  backdrop-filter: blur(8px);
+  border-radius: 15px;
+  margin-top: 4%;
+  padding: 20px 60px;
+}
+.input-container{
+  margin: 3px 0px;
+}
+.title-label{
+  font-family: Poppins;
+  font-weight: 600;
+  color: #1d1e1b;
+  font-size: 1rem;
+  margin-right: 10px;
+}
+.input-style{
+  color: #1d1e1b;
+  background-color: rgba(255, 240, 208, 0.597);
+  border: none;
+  border-radius: 15px;
+  width: 94%;
+  padding: 3% 3%;
+}
+input{
+  color: #534529;;
+}
+input::placeholder{
+  color: #534529;
+}
+.btn-container{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+  margin-top: 15px;
+}
+.btn{
+  background-color: #242712;
+  color: rgba(255, 239, 205, 0.874);
+  border: none;
+  border-radius: 20px;
+  padding: 10px 15px;
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 1rem;
 }

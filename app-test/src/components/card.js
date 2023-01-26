@@ -1,9 +1,9 @@
 import CardItem from './cardItem';
 
-function Card(props){
+function Card({items}){
   return(
     <div className='card-container'>
-      <CardItem
+      {/* <CardItem
         date={props.items[0].date}
         motive={props.items[0].motive}
         amount={props.items[0].amount}
@@ -17,7 +17,13 @@ function Card(props){
         date={props.items[2].date}
         motive={props.items[2].motive}
         amount={props.items[2].amount}
-      />
+      /> */}
+
+      {items.map((item)=>{
+        return (
+          <CardItem key={item.id} items={item}/>
+        )
+      })}
     </div>
   )
 }

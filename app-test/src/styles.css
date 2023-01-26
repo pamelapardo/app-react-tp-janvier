@@ -92,10 +92,13 @@
   width: 71%;
 }
 .motive{
+  margin-block-start: -0.3em !important;
+  margin-block-end: -0.3em !important;
   padding: 0px 20px;
   color: #242712;
   font-family: Abril Fatface;
   letter-spacing: 1px;
+  font-size: 1.7rem;
 }
 .amount-container{
   width: 12%;
@@ -112,6 +115,3 @@
   padding: 8px 10px;
   border-radius: 8px;
 }
-
-
-/* -------------------------------- Formulaire -------------------------- */

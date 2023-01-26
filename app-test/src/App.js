@@ -12,7 +12,7 @@ function App() {
     },
     {
     id:'2',
-    date: new Date(2022, 24, 5),
+    date: new Date(2022, 0, 5),
     motive:'Lidl',
     amount: 25.85,
     },
